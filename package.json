@@ -6,7 +6,9 @@
   "scripts": {
     "test": "jest",
     "test:watch": "npm test -- --watch",
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json",
+    "prepare": "husky install",
+    "pre-commit": "npm test && lint-staged"
   },
   "repository": {
     "type": "git",

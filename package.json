@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A micro library",
   "main": "build/index.umd.js",
+  "typings": "build/index.d.ts",
   "files": [
     "build"
   ],

@@ -42,8 +42,7 @@
   },
   "lint-staged": {
     "src/**/*.ts": [
-      "prettier --write --no-semi --single-quote --trailling-comma es5",
-      "git add"
+      "prettier --write --no-semi --single-quote --trailling-comma es5"
     ]
   }
 }
